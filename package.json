@@ -1,0 +1,28 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "web scraping exercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "pineapple",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrateUp/mongoscraper.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StrateUp/mongoscraper/issues"
+  },
+  "homepage": "https://github.com/StrateUp/mongoscraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.1",
+    "request": "^2.81.0"
+  }
+}
